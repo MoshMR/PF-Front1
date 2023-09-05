@@ -1,4 +1,61 @@
 * {
   box-sizing: border-box;
-  
 }
+
+@font-face {
+  font-family: Be Vietnam;
+  src: url("https://db.onlinewebfonts.com/t/2cbcc23a9fb355b53be686fc02542778.ttf")format("truetype");
+}
+
+body {
+  width: 480px;
+  height: 3593px;
+  background: #fff;
+  border: solid 1px green;
+}
+
+.container01 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  border: solid 1px green;
+  margin: 40px 56px;
+}
+
+.c01-hambur {
+  width: 60px;
+  height: 60px;
+}
+
+.c01-logo {
+  height: 25px;
+}
+
+.container02 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 24px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: solid 1px green;
+}
+
+.c02-imgPadel {
+  width: 400px;
+}
+
+.c02-texto1 {
+  align-self: stretch;
+  color: #232c50;
+  text-align: right;
+  font-family: Be Vietnam;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 114.6%;
+  letter-spacing: -1.75px;
+}
+
